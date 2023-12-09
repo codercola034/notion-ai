@@ -4,6 +4,7 @@
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
+  - [Setup Notion Token](#setup-notion-token)
   - [Usage](#usage)
   - [HTTP](#http)
     - [Start HTTP Server](#start-http-server)
@@ -27,6 +28,17 @@ This application integrates Notion AI into your workflow. It has three main func
 
 ```shell
 go install github.com/codercola034/notion-ai@latest
+```
+
+### Setup Notion Token
+
+1. Open a web browser and login to Notion
+2. Go to Application panel
+   ![How to Get Notion Token](https://github.com/codercola034/notion-ai/blob/main/token.png?raw=true)
+3. Copy the value and set to your environment variable "NOTION_TOKEN"
+
+```shell
+NOTION_TOKEN_V2=$(Your Token)
 ```
 
 ### Usage
