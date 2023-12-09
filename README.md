@@ -12,7 +12,7 @@
 
 ## Description
 
-This application integrates Notion AI into your workflow. It has three main functionalities:
+Use Notion AI outside Notion!
 
 ![In-use Animation](https://github.com/codercola034/notion-ai/blob/main/demo.gif?raw=true "In-use Animation")
 
