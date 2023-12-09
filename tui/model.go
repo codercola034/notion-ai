@@ -142,5 +142,5 @@ func (m model) View() string {
 	if m.err != nil {
 		b.WriteString(errorStyle.Render(m.err.Error()))
 	}
-	return appStyle.Render(b.String()) + helpStyle.Render("\nc-s send • c-p paste • tab change-focus • c-y yank-last-codeblock • esc/c-c quit")
+	return appStyle.Render(b.String()) + helpStyle.Render("\nc-s send • c-p paste • c-y yank-last-codeblock\ntab change-focus • esc/c-c quit")
 }
